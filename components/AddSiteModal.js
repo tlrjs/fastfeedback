@@ -19,7 +19,6 @@ import {
 
 import { createSite } from '@/lib/db';
 import { useAuth } from '@/lib/auth';
-import { database } from 'firebase';
 
 const AddSiteModal = ({ children }) => {
   const initialRef = useRef();
