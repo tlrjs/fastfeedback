@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import useSWR from 'swr';
-import { Button, Flex, Text, Code, Icon } from '@chakra-ui/core';
 
 import { useAuth } from '@/lib/auth';
 import EmptyState from '@/components/EmptyState';
